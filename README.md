@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+Fullfill the dependencies, by running :
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
