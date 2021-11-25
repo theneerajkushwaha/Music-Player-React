@@ -318,7 +318,7 @@ class PlaySection extends React.Component{
                         <img src={this.state.playerState ? PlayButton : PauseButton} alt="" className="requestIcon" id="playButton" onClick={this.togglePlayState} />
                         <img src={nextSongButton} alt="" className="requestIcon" id="nextMusicButton" onClick={this.parentRef.parentRef.nextSong} />
                     </div>
-                    <img src={shuffleSongButton} alt="" className="requestIcon" id="shuffleButton" onClick={}/>
+                    <img src={shuffleSongButton} alt="" className="requestIcon" id="shuffleButton"/>
                 </div>
             </div>
         )
