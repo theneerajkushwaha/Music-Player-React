@@ -1,0 +1,35 @@
+:root{
+  --bodyColor: #141414;
+  --textColor: #FFFFFF;
+  --iconColor: #C4C4C4;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;  
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar{
+  background-color: var(--boxColor);
+  width: 7px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--boxColor2);
+}
+
+
+body {
+    background-color: var(--bodyColor);
+    color: var(--textColor);
+
+    font-family: Poppins;
+
+}
+
+
+.MusicPlayer{
+  display: flex;
+}

@@ -1,0 +1,121 @@
+:root{
+    --textColor: #FFFFFF;
+    --boxColor: #181818;
+    --boxColor2: #2F2F2F;
+    --borderColor: #000000;
+}
+
+.fileSection{
+    padding: 4.45vh 2.52vw;
+    width: 57vw;
+}
+
+/* folder selection section  */
+
+.folderSelectorContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 23px;
+    background-color: var(--boxColor);
+    font-size: 15px;
+    cursor:pointer;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.folderSelectorContainer:hover{ 
+    background-color: rgb(27, 27, 27);
+}
+
+.songInputBox{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+/* search section  */
+
+.SearchContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    margin-top: 11px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.searchInputContainer {width: 100%;}
+.searchInputContainer input{
+    background-color: var(--boxColor);
+    font-family: poppins;
+    padding: 12px 23px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.sortMusicBox{
+    margin-left: 7px;
+    background-color: #00000000;
+    color: var(--textColor);
+    opacity: 0.3;
+    border: none;
+    outline: none;
+}
+
+.sortContainer{
+    width: 137px;
+}
+
+option{
+    color: var(--boxColor);
+}
+
+/* song container section */
+
+.SongContainer{
+    margin-top: 27px;
+    height: 753px;
+    overflow-y: auto;
+}
+
+
+
+.songItemContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0px;
+    border: var(--borderColor) solid 1px;
+    margin-right: 5px;
+    margin-bottom: 14px;
+    width: 98%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.songItemContainer div{
+    display: flex;
+    align-items: center;
+}
+
+.songItemContainer:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.currentSong{
+    margin: 0px 0px 0px 23px;
+}
+
+.songName{
+    margin: 0px 0px 0px 23px;
+}
+
+.bookMarkSong{
+    margin: 0px 18px;
+}
