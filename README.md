@@ -1,7 +1,7 @@
 # Music-Player-React-
 
 
-About( short ) it :
+(short)About it :
 
 This project is based upon web).
 A React based Music Player, which is going to be pushed into Electron, once it completes.
